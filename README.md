@@ -1,44 +1,44 @@
-A7K Restaurant Ordering System
+# Restaurant Program --> A7MED
 
-This is a simple console-based restaurant ordering system written in Python. The program allows users to browse through different categories of food items, select the items they want to order, view their order, and calculate the total price.
+This Python program is a command-line application for managing a restaurant's menu and customer orders. Users can view available items, place orders, and view their total bill.
 
----> Features
+## Features
 
-● Menu Categories:
-• Pizzas
-• Burgers
-• Drinks
-• Soups
-• Desserts
+- **Menu Items**: View and select items from various categories such as pizzas, burgers, drinks, soups, and desserts.
+- **Order Placement**: Add selected items to your order with specified quantities.
+- **Order Summary**: View a summary of your order, including total cost.
+- **User-Friendly Interface**: Easy-to-use command-line interface for navigating the menu.
 
+## Available Menu Items
 
-● View and Select Items: Users can view available items in each category and add items to their order.
+- **Pizzas**: 
+  - Margherita: 100
+  - Pepperoni: 120
+  - Meat Lovers: 150
+  - Chicken: 130
+- **Burgers**: 
+  - Beef: 100
+  - Chicken: 80
+  - Bacon: 120
+- **Drinks**: 
+  - Coke: 30
+  - Sprite: 25
+  - Fanta: 25
+  - Pepsi: 30
+- **Soups**: 
+  - Chicken Soup: 50
+  - Beef Soup: 60
+  - Mushroom Soup: 40
+- **Desserts**: 
+  - Ice Cream: 50
+  - Chocolate Cake: 60
+  - Cheese Cake: 70
 
-● Order Summary: Users can view their order at any time, including item details and the total price.
+## How It Works
 
-● Update Order: Users can keep adding items or modify their order before checkout.
-
-● Exit the Program: Users can finish and exit the program once they are done.
-
-
----> How to Use
-
-1. When you run the program, you'll be presented with a menu of categories (Pizzas, Burgers, Drinks, Soups, Desserts).
-
-
-2. Choose a category by entering the corresponding number (1-5).
-
-
-3. Within the category, you'll see the available items with their prices. Choose an item by entering the number.
-
-
-4. Enter the quantity of the item you want.
-
-
-5. The item will be added to your order, and you can continue selecting more items or view your order.
-
-
-6. To view your order, choose option 6 from the main menu. The total price will be calculated and displayed.
-
-
-7. If you're done, you can choose 7 to exit the program.
+1. **Welcome Message**: Upon running the program, users are welcomed to A7K Restaurant.
+2. **Menu Navigation**:
+   - Users can choose from various categories (Pizzas, Burgers, Drinks, Soups, Desserts).
+   - For each category, users can select an item, specify the quantity, and add it to their order.
+3. **View Order**: Users can view their current order, including a summary and total cost.
+4. **Exit**: Users can exit the program at any time.
